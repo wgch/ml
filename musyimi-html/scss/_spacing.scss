@@ -5,6 +5,12 @@ $spacing-xl: $spacing-lg * 2;
 $spacing-sm: $spacing-md / 2;
 $spacing-xs: $spacing-sm / 2;
 
+// Clear
+.clear-spacing{
+    padding: 0;
+    margin: 0;
+}
+
 // Padding
 @mixin padding($p, $s) {
     @if $s == xl {
@@ -287,11 +293,6 @@ $spacing-xs: $spacing-sm / 2;
     }
 }
 
-// Clear
-.clear-spacing{
-    padding: 0;
-    margin: 0;
-}
 .full-width{
     width: 100%;
 }
