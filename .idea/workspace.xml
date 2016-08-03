@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10726bc0-26d2-464c-9eaf-f5c2abaf3f34" name="Default" comment="" />
+    <list default="true" id="10726bc0-26d2-464c-9eaf-f5c2abaf3f34" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/anne-mbugua-sq-sm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/anne-mbugua-sq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/anne-mbugua.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/kangethe-mwaniki-sq-sm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/kangethe-mwaniki-sq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/kangethe-mwaniki.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/kimathi-kamencu-sq-sm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/kimathi-kamencu-sq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/kimathi-kamencu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/mueni-musyimi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/mueni-nyokabi-sq-sm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/mueni-nyokabi-sq.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/muriuki-carol-sq-sm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musyimi-html/app/img/muriuki-carol-sq.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/musyimi-html/app/img/anne_mbugua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/musyimi-html/app/img/edith.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/musyimi-html/app/img/kangethe_mwaniki.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/musyimi-html/app/img/kimathi_kamencu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/musyimi-html/app/img/mueni_musyimi.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musyimi-html/.idea/workspace.xml" afterPath="$PROJECT_DIR$/musyimi-html/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musyimi-html/app/page-our-clients.html" afterPath="$PROJECT_DIR$/musyimi-html/app/page-our-clients.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musyimi-html/app/page-the-firm.html" afterPath="$PROJECT_DIR$/musyimi-html/app/page-the-firm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musyimi-html/app/page-what-we-do.html" afterPath="$PROJECT_DIR$/musyimi-html/app/page-what-we-do.html" />
+    </list>
     <ignored path="Musyimi.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +35,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
@@ -28,7 +53,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/musyimi-twig/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="220">
               <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
@@ -45,11 +70,10 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -157,6 +181,10 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -173,6 +201,9 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.Musyimi" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -186,11 +217,12 @@
       <updated>1468244150635</updated>
       <workItem from="1468244152273" duration="2574000" />
       <workItem from="1468895019989" duration="121000" />
+      <workItem from="1470108894091" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2695000" />
+    <option name="totallyTimeSpent" value="2723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
@@ -244,6 +276,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/musyimi-twig/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess" />
     <entry file="file://$PROJECT_DIR$/app/views/templates/master.twig" />
     <entry file="file://$PROJECT_DIR$/app/routes.php" />
@@ -252,7 +292,7 @@
     <entry file="file://$PROJECT_DIR$/public/index.php" />
     <entry file="file://$PROJECT_DIR$/musyimi-twig/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="220">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
