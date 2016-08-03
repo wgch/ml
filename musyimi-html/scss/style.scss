@@ -81,3 +81,26 @@ p{
         }
     }
 }
+
+.team{
+    width: 100%;
+    position: relative;
+    &-col{
+        opacity: 0.6;
+        width: 20%;
+        position: relative;
+        float: left;
+        padding: $spacing-md;
+        border: transparent solid 1px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+        &.active {
+            opacity: 1;
+            background: #eee;
+            border: $brand-secondary solid 1px;
+        }
+    }
+}

@@ -112,4 +112,9 @@ $brand-secondary: #770000;
         background-color: $brand-secondary;
         color: #fff;
     }
+    &-img-01{
+        background: $brand-primary-alt url("../img/jumbo-img-01-wide.png") 0 50% no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
 }
