@@ -9,6 +9,15 @@
 </head>
 <body class="container-fluid">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1674097982850490";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <section class="row header bg-grey-light border-bottom">
     <div class="container">
         <section class="row">
@@ -25,7 +34,7 @@
                         <li><small><i class="fa fa-envelope-o"></i> musyimilaw@musyimilaw.com</small></li>
                     </ul>
                     <ul class="list-inline pull-right navigation-links padding-top-md">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
+                        <li><a href="./"><i class="fa fa-home"></i></a></li>
                         <li><a href="page-what-we-do.html">What We Do</a></li>
                         <li class="active"><a href="page-our-clients.html">Our Clients</a></li>
                         <li><a href="page-the-team.html">The Team</a></li>
@@ -83,7 +92,7 @@
                 </ul>
             </div>
             <div class="col-sm-3">
-                <div class="padding-md bg-grey-light">
+                <div class="hidden padding-md bg-grey-light">
                     <h4 class="clear-spacing"><strong>Contact Us</strong></h4>
                     <div class="form-group padding-top-sm">
                         <input type="email" class="form-control margin-bottom-md" placeholder="Your Email" />
@@ -91,8 +100,38 @@
                     </div>
                     <button class="btn btn-secondary btn-block">Send</button>
                 </div>
+                <div class="margin-top-md">
+                    <div class="fb-page" data-href="https://www.facebook.com/musyimilaw/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/musyimilaw/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/musyimilaw/">Musyimi &amp; Company</a></blockquote></div>
+                </div>
+                <div class="padding-top-md">
+                    <a class="twitter-timeline" href="https://twitter.com/musyimilaw">Tweets by MusyimiLaw</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
             </div>
         </section>
+    </div>
+</section>
+
+<section class="row footer bg-primary-alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 padding-bottom-lg padding-top-md">
+                <img src="img/logo-xl-white-text.png" class="full-width" />
+                <div class="col-sm-offset-3 padding-left-md padding-top-md">
+                    <ul class="list-inline">
+                        <li><a href="#" class="h4"><i class="fa fa-facebook-square"></i> Like Us</a></li>
+                        <li class="padding-top-sm"><a href="#" class="h4"><i class="fa fa-twitter-square"></i> Follow us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-offset-3 padding-top-md padding-left-md">
+                    <small>Copyright &copy; 2016</small>
+                    <p class="clear-spacing"><strong>Musyimi & Company</strong></p>
+                    <small class="">All Rights Reserved.</small>
+                </div>
+            </div>
+            <div class="col-sm-7 col-sm-offset-1 text-left">
+                <a href="#"><img class="full-width" src="img/spacer.white-alt.png" /></a>
+            </div>
+        </div>
     </div>
 </section>
 

@@ -9,6 +9,15 @@
 </head>
 <body class="container-fluid">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1674097982850490";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <section class="row header bg-grey-light border-bottom">
     <div class="container">
         <section class="row">
@@ -63,7 +72,7 @@
 
         <section class="row margin-top-lg">
             <div class="col-sm-4 border-left border-2px">
-                <a href="#" class="h4 text-bold">Litigation</a>
+                <a href="page-what-we-do.html" class="h4 text-bold">Litigation</a>
                 <ul class="list-inline text-bold">
                     <li><a href="">Local and International Adoption</a></li>
                     <li><a href="">Divorce, Custody and Matrimonial Property</a></li>
@@ -74,7 +83,7 @@
                 </ul>
             </div>
             <div class="col-sm-4 border-left border-2px">
-                <a href="#" class="h4 text-bold">Real Estate Law / Conveyancing</a>
+                <a href="page-what-we-do.html" class="h4 text-bold">Real Estate Law / Conveyancing</a>
                 <ul class="list-inline text-bold">
                     <li><a href="">General Conveyancing</a></li>
                     <li><a href="">Property Development Advisory</a></li>
@@ -82,7 +91,7 @@
                 </ul>
             </div>
             <div class="col-sm-4 border-left border-2px">
-                <a href="" class="h4 text-bold">Corporate and Commercial Law</a>
+                <a href="page-what-we-do.html" class="h4 text-bold">Corporate and Commercial Law</a>
                 <ul class="list-inline text-bold">
                     <li><a href="">Formation and restructuring corporate entities</a></li>
                     <li><a href="">Commercial Agreements</a></li>
@@ -92,6 +101,35 @@
                 </ul>
             </div>
         </section>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row padding-bottom-xl">
+        <div class="col-sm-3 col-sm-offset-3 text-right border-right border-2px">
+            <h4>Follow us on Twitter</h4>
+            <script>window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                        t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));</script>
+            <a class="twitter-follow-button" href="https://twitter.com/Musyimilaw" data-size="large" data-show-count="false">Follow @Musyimilaw</a>
+        </div>
+        <div class="col-sm-3 text-left">
+            <h4>Like us on Facebook</h4>
+            <div class="fb-like" data-href="https://facebook.com/musyimilaw" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+        </div>
     </div>
 </section>
 
@@ -114,23 +152,25 @@
     </div>
 </section>
 
-<section class="row footer bg-primary-alt padding-top-md padding-bottom-lg">
+<section class="row footer bg-primary-alt">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 padding-bottom-lg">
+            <div class="col-sm-4 padding-bottom-lg padding-top-md">
                 <img src="img/logo-xl-white-text.png" class="full-width" />
+                <div class="col-sm-offset-3 padding-left-md padding-top-md">
+                    <ul class="list-inline">
+                        <li><a href="#" class="h4"><i class="fa fa-facebook-square"></i> Like Us</a></li>
+                        <li class="padding-top-sm"><a href="#" class="h4"><i class="fa fa-twitter-square"></i> Follow us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-offset-3 padding-top-md padding-left-md">
+                    <small>Copyright &copy; 2016</small>
+                    <p class="clear-spacing"><strong>Musyimi & Company</strong></p>
+                    <small class="">All Rights Reserved.</small>
+                </div>
             </div>
-            <div class="col-sm-4 text-center padding-top-lg">
-                <ul class="list-inline h1">
-                    <li class="margin-right-md"><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                    <li class="margin-right-md"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class=""><a href="#"><i class="fa fa-phone-square"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-11 col-xs-offset-1">
-                <p>&copy; <strong>Musyimi & Company</strong>. All Rights Reserved.</p>
+            <div class="col-sm-7 col-sm-offset-1 text-left">
+                <a href="#"><img class="full-width" src="img/spacer.white-alt.png" /></a>
             </div>
         </div>
     </div>

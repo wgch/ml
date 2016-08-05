@@ -19,7 +19,7 @@
       <paths name="Musyimi Law">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/demo" local="$PROJECT_DIR$/app" web="/demo" />
           </mappings>
         </serverdata>
       </paths>

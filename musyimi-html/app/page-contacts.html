@@ -9,6 +9,15 @@
 </head>
 <body class="container-fluid">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1674097982850490";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <section class="row header bg-grey-light border-bottom">
     <div class="container">
         <section class="row">
@@ -25,7 +34,7 @@
                         <li><small><i class="fa fa-envelope-o"></i> musyimilaw@musyimilaw.com</small></li>
                     </ul>
                     <ul class="list-inline pull-right navigation-links padding-top-md">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
+                        <li><a href="./"><i class="fa fa-home"></i></a></li>
                         <li><a href="page-what-we-do.html">What We Do</a></li>
                         <li><a href="page-our-clients.html">Our Clients</a></li>
                         <li><a href="page-the-team.html">The Team</a></li>
@@ -41,22 +50,115 @@
 <section class="row padding-bottom-lg padding-top-lg">
     <div class="container">
         <section class="row">
-            <div class="col-sm-2">
-                <h4 class="clear-spacing"><strong>Litigation Team</strong></h4>
+            <div class="col-sm-4">
+                <div id="map" class="height-lg"></div>
+                <div class="media margin-top-lg">
+                    <div class="media-left media-top">
+                        <a href="#">
+                            <h3 class="clear-spacing"><i class="fa fa-map-marker"></i></h3>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading"><strong>Our Address</strong></h3>
+                        <h4>M'pulla House, Arboretum Road<br />
+                            Off State House Road<br />
+                            Nairobi, Kenya</h4>
+                        <div class="padding-md"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-7">
-                <h3 class="clear-spacing">Page details</h3>
-                <p></p>
+            <div class="col-sm-5">
+                <h3 class="media-heading"><strong>Our Contacts</strong></h3>
+                <h4>P.O. Box 12502-00400, Nairobi, Kenya.</h4>
+                <h4><strong>Tel:</strong> (020) 233 – 0551, (020) 233 – 0552, 0733 773 955 / 0722 513 991</h4>
+                <h4><strong>Email:</strong> musyimilaw@musyimilaw.com</h4>
+                <hr />
+                <form>
+                    <div class="row form-group form-group-lg">
+                        <div class="col-sm-6">
+                            <label>First Name</label>
+                            <input class="form-control" type="text" placeholder="First Name" />
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Last Name</label>
+                            <input class="form-control" type="text" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input class="form-control input-lg" type="email" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <label>Your Message</label>
+                        <textarea rows="5" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LfH0iYTAAAAAB0jU4flrFhotkU_0l9O0zPCZ94l"></div>
+                    </div>
+                    <button class="btn btn-primary-alt btn-lg">Send Message</button>
+                </form>
             </div>
             <div class="col-sm-3">
-                <h4 class="clear-spacing">More on <strong>Litigation</strong></h4>
+                <div class="">
+                    <a class="twitter-timeline" href="https://twitter.com/musyimilaw">Tweets by MusyimiLaw</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="margin-top-lg text-center">
+                    <div class="fb-like" data-href="https://facebook.com/musyimilaw" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+                </div>
             </div>
         </section>
+    </div>
+</section>
+
+<section class="row footer bg-primary-alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 padding-bottom-lg padding-top-md">
+                <img src="img/logo-xl-white-text.png" class="full-width" />
+                <div class="col-sm-offset-3 padding-left-md padding-top-md">
+                    <ul class="list-inline">
+                        <li><a href="#" class="h4"><i class="fa fa-facebook-square"></i> Like Us</a></li>
+                        <li class="padding-top-sm"><a href="#" class="h4"><i class="fa fa-twitter-square"></i> Follow us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-offset-3 padding-top-md padding-left-md">
+                    <small>Copyright &copy; 2016</small>
+                    <p class="clear-spacing"><strong>Musyimi & Company</strong></p>
+                    <small class="">All Rights Reserved.</small>
+                </div>
+            </div>
+            <div class="col-sm-7 col-sm-offset-1 text-left">
+                <a href="#"><img class="full-width" src="img/spacer.white-alt.png" /></a>
+            </div>
+        </div>
     </div>
 </section>
 
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/index.js" type="text/javascript"></script>
+
+<script>
+    function initMap() {
+        var myLatLng = {lat: -1.2774, lng: 36.804866};
+
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            scrollwheel: false,
+            zoom: 17
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+            map: map,
+            position: myLatLng,
+            title: 'Musyimi & Company Advocates'
+        });
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_Qw1d1M4lhJwL6KLUXKNtrPS5mMdoAgI&callback=initMap" async defer></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>

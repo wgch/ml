@@ -9,6 +9,15 @@
 </head>
 <body class="container-fluid">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1674097982850490";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <section class="row header bg-grey-light border-bottom">
     <div class="container">
         <section class="row">
@@ -25,7 +34,7 @@
                         <li><small><i class="fa fa-envelope-o"></i> musyimilaw@musyimilaw.com</small></li>
                     </ul>
                     <ul class="list-inline pull-right navigation-links padding-top-md">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
+                        <li><a href="./"><i class="fa fa-home"></i></a></li>
                         <li><a href="page-what-we-do.html">What We Do</a></li>
                         <li><a href="page-our-clients.html">Our Clients</a></li>
                         <li><a href="page-the-team.html">The Team</a></li>
@@ -41,14 +50,44 @@
 <section class="row padding-bottom-lg padding-top-lg">
     <div class="container">
         <section class="row">
-            <div class="col-sm-5">
-                <div class="bg-grey-light padding-md full-width height-lg"></div>
+            <div class="col-sm-3">
+                <div class="row height-lg">
+                    <div class="col-xs-4 clear-spacing"><img class="full-width" src="img/anne-mbugua-sq.jpg"/></div>
+                    <div class="col-xs-4 clear-spacing"><img class="full-width" src="img/muriuki-carol-sq.jpg"/></div>
+                    <div class="col-xs-4 clear-spacing"><img class="full-width" src="img/kangethe-mwaniki-sq.jpg"/></div>
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4 clear-spacing"><img class="full-width" src="img/kimathi-kamencu-sq.jpg"/></div>
+                    <div class="col-xs-4 clear-spacing"><img class="full-width" src="img/mueni-nyokabi-sq.jpg"/></div>
+                </div>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-6">
                 <h3 class="clear-spacing padding-bottom-md"><strong>The Firm</strong></h3>
                 <p class="lead">The Firm of Musyimi & Company was initially established as a purely conveyance practice with corporate clients but has since grown into a four department firm, with each department headed by a partner and backed Associates and Legal Assistants. Over the years, our scope of services has also grown, as has our clients' base, which now includes individuals (local and international), corporate clientele (local and international) and state clients.</p>
                 <h4><strong>Foundation</strong></h4>
                 <p>This Law Firm was founded on principles of integrity and service, and endeavours to uphold at all times in our dealings, the dignity of the human being, justice for both our internal and external clients, service with humility and intergrity.</p>
+            </div>
+            <div class="col-sm-3">
+                <div class="fb-page" data-href="https://www.facebook.com/musyimilaw/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/musyimilaw/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/musyimilaw/">Musyimi &amp; Company</a></blockquote></div>
+
+                <div class="margin-top-xl text-center">
+                    <script>window.twttr = (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                                t = window.twttr || {};
+                        if (d.getElementById(id)) return t;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+
+                        t._e = [];
+                        t.ready = function(f) {
+                            t._e.push(f);
+                        };
+
+                        return t;
+                    }(document, "script", "twitter-wjs"));</script>
+                    <a class="twitter-follow-button" href="https://twitter.com/Musyimilaw" data-size="large" data-show-count="false">Follow @Musyimilaw</a>
+                </div>
             </div>
         </section>
         <section class="row text-center margin-top-xl border-top">
@@ -65,6 +104,64 @@
                 <p class="lead text-italic">To serve professionally and efficiently all benchmarked by high standards of integrity</p>
             </div>
         </section>
+
+        <section class="margin-top-xl margin-bottom-xl">
+            <section class="margin-bottom-lg">
+                <div class="text-center col-sm-8 col-sm-offset-2 padding-bottom-md">
+                    <h2><strong>Scope of Service and Experience</strong></h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3><strong>Practice Areas</strong></h3>
+                        <p>The firm renders legal services in multiple legal disciplines but has specialized in following main areas:</p>
+                        <ul class="list-unstyled">
+                            <li><h4>- Litigation</h4></li>
+                            <li><h4>- Family & Children Law (including Adoptions)</h4></li>
+                            <li><h4>- Property Law / Conveyancing, and</h4></li>
+                            <li><h4>- Corporate and Commercial Law</h4></li>
+                        </ul>
+                        <a href="#" class="margin-top-md btn btn-primary-alt">What We Actually Do</a>
+                    </div>
+                    <div class="col-sm-5">
+                        <h3><strong>The Team</strong></h3>
+                        <h4><strong>Partners</strong></h4>
+                        <p>The Partners who give oversight for service delivery are experienced, jointly bringing in an aggregate of over 50 years of experience in their areas os speciality. The partners are Anne Njeri Mbugua and Kimathi Kamencu.</p>
+                        <h4 class="padding-top-md"><strong>Associates</strong></h4>
+                        <p>The team includes Mueni-Nyokabi Musyimi, Carol Muriuki, and Kang'ethe Mwanik.</p>
+                        <a href="#" class="margin-top-md btn btn-primary-alt">The Awesome Team</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3><strong>Clients</strong></h3>
+                        <p>Musyimi and Company prides itself for its talented, committed and driven professionals whose ambition is to serve clients customized needs with legal knowledge, effeciency and timely delivery.</p>
+                        <a href="#" class="margin-top-md btn btn-primary-alt">Our Clients</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+</section>
+
+<section class="row footer bg-primary-alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 padding-bottom-lg padding-top-md">
+                <img src="img/logo-xl-white-text.png" class="full-width" />
+                <div class="col-sm-offset-3 padding-left-md padding-top-md">
+                    <ul class="list-inline">
+                        <li><a href="#" class="h4"><i class="fa fa-facebook-square"></i> Like Us</a></li>
+                        <li class="padding-top-sm"><a href="#" class="h4"><i class="fa fa-twitter-square"></i> Follow us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-offset-3 padding-top-md padding-left-md">
+                    <small>Copyright &copy; 2016</small>
+                    <p class="clear-spacing"><strong>Musyimi & Company</strong></p>
+                    <small class="">All Rights Reserved.</small>
+                </div>
+            </div>
+            <div class="col-sm-7 col-sm-offset-1 text-left">
+                <a href="#"><img class="full-width" src="img/spacer.white-alt.png" /></a>
+            </div>
+        </div>
     </div>
 </section>
 
