@@ -8,13 +8,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.keys/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash/LICENSE" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contacts/index.html" afterPath="$PROJECT_DIR$/app/contacts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/our-clients/index.html" afterPath="$PROJECT_DIR$/app/our-clients/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/the-firm/index.html" afterPath="$PROJECT_DIR$/app/the-firm/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/the-team/index.html" afterPath="$PROJECT_DIR$/app/the-team/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/what-we-do/index.html" afterPath="$PROJECT_DIR$/app/what-we-do/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="musyimi-html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -461,7 +454,7 @@
       <workItem from="1470925144659" duration="1636000" />
       <workItem from="1471076017723" duration="1124000" />
       <workItem from="1471333210386" duration="20000" />
-      <workItem from="1471399957950" duration="2498000" />
+      <workItem from="1471399957950" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="Init musyimi-html">
       <created>1469673565172</created>
@@ -547,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471401233804</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Minor updates">
+      <created>1471402497662</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1471402497662</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80606000" />
+    <option name="totallyTimeSpent" value="80649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +640,8 @@
     <MESSAGE value="Updated workspace" />
     <MESSAGE value="Removed dependencies from project" />
     <MESSAGE value="Changed navigation links, which will be changed later." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed navigation links, which will be changed later." />
+    <MESSAGE value="Minor updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
