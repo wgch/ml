@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36437e9f-620f-4483-b33e-2399634c14ee" name="Default" comment="Changed navigation links, which will be changed later.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.keys/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.keys/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash.keys/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lodash/LICENSE" afterPath="" />
+    <list default="true" id="36437e9f-620f-4483-b33e-2399634c14ee" name="Default" comment="Workspace issues">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="musyimi-html.iws" />
@@ -59,8 +55,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/contacts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="99" column="75" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
+            <state relative-caret-position="323">
+              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -454,7 +450,7 @@
       <workItem from="1470925144659" duration="1636000" />
       <workItem from="1471076017723" duration="1124000" />
       <workItem from="1471333210386" duration="20000" />
-      <workItem from="1471399957950" duration="2541000" />
+      <workItem from="1471399957950" duration="2640000" />
     </task>
     <task id="LOCAL-00001" summary="Init musyimi-html">
       <created>1469673565172</created>
@@ -547,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471402497662</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Workspace issues">
+      <created>1471402521685</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1471402521685</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80649000" />
+    <option name="totallyTimeSpent" value="80748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,7 +644,8 @@
     <MESSAGE value="Removed dependencies from project" />
     <MESSAGE value="Changed navigation links, which will be changed later." />
     <MESSAGE value="Minor updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor updates" />
+    <MESSAGE value="Workspace issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1037,8 +1041,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/contacts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="99" column="75" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
+        <state relative-caret-position="323">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
           <folding />
         </state>
       </provider>
