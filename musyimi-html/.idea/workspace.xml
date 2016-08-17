@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36437e9f-620f-4483-b33e-2399634c14ee" name="Default" comment="Workspace issues">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="musyimi-html.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -327,7 +326,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.3.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gravel-system/gravel-news" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -450,7 +449,7 @@
       <workItem from="1470925144659" duration="1636000" />
       <workItem from="1471076017723" duration="1124000" />
       <workItem from="1471333210386" duration="20000" />
-      <workItem from="1471399957950" duration="2640000" />
+      <workItem from="1471399957950" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary="Init musyimi-html">
       <created>1469673565172</created>
@@ -550,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471402521685</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Workspace issues">
+      <created>1471402603457</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1471402603457</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80748000" />
+    <option name="totallyTimeSpent" value="80940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,7 +577,7 @@
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19523196" sideWeight="0.40355676" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.188125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19523196" sideWeight="0.59644324" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19523196" sideWeight="0.59644324" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.4974293" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27086183" sideWeight="0.51997423" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4974293" order="1" side_tool="false" content_ui="tabs" />
