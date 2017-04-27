@@ -9,7 +9,8 @@ $(document).ready(function(){
     var tabs = {
         litigation: '#litigation',
         realestate: '#realestate',
-        corporate: '#corporate'
+        corporate: '#corporate',
+        mediation: '#mediation'
     };
     for (var key in tabs) {
         if (tabs.hasOwnProperty(key)) {
